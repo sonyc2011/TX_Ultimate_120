@@ -9,11 +9,14 @@ namespace esphome
 
         void TxUltimateTouch::setup()
         {
-            ESP_LOGI("log", "%s", "Tx Ultimate Touch is initialized");
+            led_.setup();
+            ESP_LOGI(TAG, "Tx Ultimate Touch is initialized");
         }
 
         void TxUltimateTouch::loop()
         {
+            led_.loop();
+
             bool found = false;
 
             int bytes[15] = {};
