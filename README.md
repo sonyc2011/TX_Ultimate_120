@@ -1,1 +1,7 @@
-<img width="1943" height="724" alt="image" src="https://github.com/user-attachments/assets/dece34e2-685d-465f-8eb3-419ee9e4271d" />
+# TX_Ultimate_120
+
+> ⚠️ **Under Investigation**
+>
+> This repository documents the reverse engineering of the Sonoff TX Ultimate 120 and the development of an ESPHome external component.
+>
+> Documentation will be published as features are verified.
