@@ -4,6 +4,7 @@
 #include "esphome/core/component.h"
 #include "esphome/components/uart/uart.h"
 #include "esphome/components/uart/uart_component.h"
+#include "tx_ultimate_led.h"
 
 namespace esphome
 {
@@ -58,6 +59,8 @@ namespace esphome
             Trigger<TouchPoint> swipe_trigger_right_;
             Trigger<TouchPoint> full_touch_release_trigger_;
             Trigger<TouchPoint> long_touch_release_trigger_;
+
+            TxUltimateLed led_;
 
         }; // class TxUltimateTouch
 
