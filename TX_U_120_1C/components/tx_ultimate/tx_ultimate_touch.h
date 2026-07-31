@@ -7,7 +7,7 @@
 
 namespace esphome
 {
-    namespace tx_ultimate_touch
+    namespace tx_ultimate
     {
         const static uint8_t TOUCH_STATE_RELEASE = 1;
         const static uint8_t TOUCH_STATE_PRESS = 2;
@@ -61,5 +61,5 @@ namespace esphome
 
         }; // class TxUltimateTouch
 
-    } // namespace tx_ultimate_touch
+    } // namespace tx_ultimate
 } // namespace esphome

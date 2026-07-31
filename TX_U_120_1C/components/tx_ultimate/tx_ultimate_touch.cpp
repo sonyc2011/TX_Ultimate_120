@@ -3,9 +3,9 @@
 
 namespace esphome
 {
-    namespace tx_ultimate_touch
+    namespace tx_ultimate
     {
-        static const char *TAG = "tx_ultimate_touch";
+        static const char *TAG = "tx_ultimate";
 
         void TxUltimateTouch::setup()
         {
@@ -200,5 +200,5 @@ namespace esphome
             return tp;
         }
 
-    } // namespace tx_ultimate_touch
+    } // namespace tx_ultimate
 } // namespace esphome

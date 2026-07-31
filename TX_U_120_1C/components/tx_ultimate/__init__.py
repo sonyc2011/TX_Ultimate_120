@@ -11,7 +11,7 @@ CODEOWNERS = ["@SmartHome-yourself"]
 DEPENDENCIES = ['uart']
 
 # CONFIG-IDs
-CONF_TX_ULTIMATE_TOUCH = "tx_ultimate_touch"
+CONF_TX_ULTIMATE = "tx_ultimate"
 
 CONF_UART = "uart"
 
@@ -27,12 +27,12 @@ CONF_ON_LONG_TOUCH_RELEASE = "on_long_touch_release"
 # ------------------------------
 # ------------------------------
 
-tx_ultimate_touch_ns = cg.esphome_ns.namespace('tx_ultimate_touch')
-TouchPoint = tx_ultimate_touch_ns.struct("TouchPoint")
+tx_ultimate_ns = cg.esphome_ns.namespace('tx_ultimate')
+TouchPoint = tx_ultimate_ns.struct("TouchPoint")
 
-#TouchListener = tx_ultimate_touch_ns.class_("TouchListener")
+#TouchListener = tx_ultimate_ns.class_("TouchListener")
 
-TxUltimateTouch = tx_ultimate_touch_ns.class_(
+TxUltimateTouch = tx_ultimate_ns.class_(
     'TxUltimateTouch', cg.Component, uart.UARTDevice)
 
 
