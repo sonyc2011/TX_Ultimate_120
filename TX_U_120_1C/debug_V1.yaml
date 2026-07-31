@@ -29,7 +29,7 @@ esp32:
 logger:
   level: DEBUG
   logs:
-    tx_ultimate_touch: DEBUG
+    tx_ultimate: DEBUG
     uart: DEBUG
 
 api:
@@ -45,9 +45,8 @@ wifi:
 
 external_components:
   - source:
-      type: git
-      url: https://github.com/sonyc2011/TX_Ultimate_120
-      ref: main
+      type: local
+      path: components/tx_ultimate
     components: [tx_ultimate]
 
 globals:
@@ -129,7 +128,7 @@ uart:
   id: my_uart
   baud_rate: 115200
 
-tx_ultimate_touch:
+tx_ultimate:
   id: tx_touch
   uart: my_uart
 
