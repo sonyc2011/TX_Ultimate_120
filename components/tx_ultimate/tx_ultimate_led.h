@@ -22,8 +22,6 @@ class TxUltimateLed : public Component {
   void disable_night_light();
   void toggle_night_light();
 
-  void set_night_light(light::LightState *light);
-
  protected:
   bool night_light_enabled_{false};
   light::LightState *night_light_{nullptr};
