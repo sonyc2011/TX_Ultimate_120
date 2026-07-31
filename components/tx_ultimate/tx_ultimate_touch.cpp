@@ -102,6 +102,7 @@ namespace esphome
 
             case TOUCH_STATE_ALL_FIELDS:
                 ESP_LOGD(TAG, "Full Touch Release");
+                led_.toggle_night_light();
                 this->full_touch_release_trigger_.trigger(tp);
                 break;
 
