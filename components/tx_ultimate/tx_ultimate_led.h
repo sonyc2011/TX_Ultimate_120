@@ -1,13 +1,6 @@
 #pragma once
 
 #include "esphome/core/component.h"
-
-namespace esphome {
-namespace tx_ultimate {
-
-#pragma once
-
-#include "esphome/core/component.h"
 #include "esphome/components/light/light_state.h"
 
 namespace esphome {
@@ -29,5 +22,3 @@ class TxUltimateLed : public Component {
 
 }  // namespace tx_ultimate
 }  // namespace esphome
-
-}  // namespace tx_ultimate
