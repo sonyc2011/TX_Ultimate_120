@@ -46,9 +46,9 @@ wifi:
 external_components:
   - source:
       type: git
-      url: https://github.com/SmartHome-yourself/sonoff-tx-ultimate-for-esphome
+      url: https://github.com/sonyc2011/TX_Ultimate_120
       ref: main
-    components: [tx_ultimate_touch]
+    components: [tx_ultimate]
 
 globals:
   - id: nightlight_color
